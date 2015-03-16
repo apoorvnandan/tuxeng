@@ -17,15 +17,13 @@
 var game = new Phaser.Game(900, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 function preload() {
-  game.load.image('sky', 'assets/sky.png');
-  game.load.image('ground', 'assets/platform.png');
-  game.load.image('star', 'assets/B.png');
-  game.load.image('diamond', 'assets/B.png')
-  game.load.image('a', 'assets/A.png');
-  game.load.image('b', 'assets/B.png');
-  game.load.image('c', 'assets/C.png');
-  game.load.image('d', 'assets/D.png');
-  game.load.image('e', 'assets/E.png');
+  game.load.image('sky', 'https://cloud.githubusercontent.com/assets/8300539/6668277/b95dcb6c-cc17-11e4-9a2b-aa22bcfd350f.png');
+  game.load.image('ground', 'https://cloud.githubusercontent.com/assets/8300539/6668276/b94c87c6-cc17-11e4-8d81-b84fc520b71c.png'); 
+  game.load.image('a', 'https://cloud.githubusercontent.com/assets/8300539/6668228/5b55cbf0-cc17-11e4-8741-48bc44d863d4.png');  
+  game.load.image('b', 'https://cloud.githubusercontent.com/assets/8300539/6668229/5b5c0132-cc17-11e4-8c4c-43a36ca49453.png');
+  game.load.image('c', 'https://cloud.githubusercontent.com/assets/8300539/6668232/5b6d43d4-cc17-11e4-953b-c4eff4d9c810.png');
+  game.load.image('d', 'https://cloud.githubusercontent.com/assets/8300539/6668231/5b6d5ce8-cc17-11e4-9acb-31e5a9d8efa2.png');
+  game.load.image('e', 'https://cloud.githubusercontent.com/assets/8300539/6668230/5b6c36ce-cc17-11e4-82af-86cdefb30296.png');
   game.load.bitmapFont('scorefont', 'fonts/flappyfont/flappyfont.png', 'fonts/flappyfont/flappyfont.fnt');
 }
 
